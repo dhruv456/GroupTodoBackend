@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: groupTodoBackend
+  datasource:
+    url: jdbc:mysql://localhost:3306/TodoLive
+    username: todouser
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+jwt:
+  secret: 04d9337fdf44418dabc871339d28e22097cc77a19de55a1bc1419363feaa95c3
+  expiration: 86400000
