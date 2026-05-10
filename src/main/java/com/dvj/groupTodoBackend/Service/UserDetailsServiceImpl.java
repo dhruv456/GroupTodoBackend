@@ -1,4 +1,4 @@
-package com.dvj.groupTodoBackend.Service;
+package com.dvj.groupTodoBackend.service;
 
 import com.dvj.groupTodoBackend.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

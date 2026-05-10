@@ -1,9 +1,10 @@
 package com.dvj.groupTodoBackend.controller;
 
-import com.dvj.groupTodoBackend.DTO.AuthResponse;
-import com.dvj.groupTodoBackend.DTO.LoginRequest;
-import com.dvj.groupTodoBackend.DTO.RegisterRequest;
-import com.dvj.groupTodoBackend.Service.AuthService;
+import com.dvj.groupTodoBackend.dto.AuthResponse;
+import com.dvj.groupTodoBackend.dto.LoginRequest;
+import com.dvj.groupTodoBackend.dto.RegisterRequest;
+import com.dvj.groupTodoBackend.service.AuthService;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

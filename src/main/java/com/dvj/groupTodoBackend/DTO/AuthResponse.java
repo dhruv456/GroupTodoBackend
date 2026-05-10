@@ -1,4 +1,4 @@
-package com.dvj.groupTodoBackend.DTO;
+package com.dvj.groupTodoBackend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

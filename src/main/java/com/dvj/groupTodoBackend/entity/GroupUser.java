@@ -2,7 +2,7 @@ package com.dvj.groupTodoBackend.entity;
 
 import java.time.Instant;
 
-import com.dvj.groupTodoBackend.Enums.Role;
+import com.dvj.groupTodoBackend.enums.Role;
 
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;

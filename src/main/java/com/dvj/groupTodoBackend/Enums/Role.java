@@ -1,4 +1,4 @@
-package com.dvj.groupTodoBackend.Enums;
+package com.dvj.groupTodoBackend.enums;
 
 public enum Role {
     Admin,

@@ -1,6 +1,5 @@
 package com.dvj.groupTodoBackend.config;
 
-import com.dvj.groupTodoBackend.Service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -13,6 +12,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.dvj.groupTodoBackend.service.JwtService;
 
 import java.io.IOException;
 

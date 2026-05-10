@@ -1,8 +1,8 @@
-package com.dvj.groupTodoBackend.Service;
+package com.dvj.groupTodoBackend.service;
 
-import com.dvj.groupTodoBackend.DTO.AuthResponse;
-import com.dvj.groupTodoBackend.DTO.LoginRequest;
-import com.dvj.groupTodoBackend.DTO.RegisterRequest;
+import com.dvj.groupTodoBackend.dto.AuthResponse;
+import com.dvj.groupTodoBackend.dto.LoginRequest;
+import com.dvj.groupTodoBackend.dto.RegisterRequest;
 import com.dvj.groupTodoBackend.entity.User;
 import com.dvj.groupTodoBackend.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
