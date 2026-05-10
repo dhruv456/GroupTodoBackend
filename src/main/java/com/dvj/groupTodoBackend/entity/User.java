@@ -22,6 +22,9 @@ public class User implements UserDetails {
     @Column(nullable = false)
     private Long id;
 
+    @Column(nullable = false, unique = true, length = 36)
+    private String uuid;
+
     @Column(nullable = false)
     private String fullName;
 
